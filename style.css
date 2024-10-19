@@ -62,10 +62,15 @@ video {
     z-index:-100;
   }
 .soon button{
-    border: 1px solid #000000;
+    border: 1px solid transparent;
     background-color: transparent;
     color: aliceblue;
     border-radius: 12px;
+    transition: color 0.5s ease;
+}
+.soon button:hover{
+    color: #ffffff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff;  ;
 }
 
 a {
@@ -100,4 +105,23 @@ a {
 
 .menu a:hover {
     color: #ffffff;
+}
+
+.toz a {
+    transition: opacity 0.3s ease;
+}
+
+.toz a:hover {
+    opacity: 0.8;
+}
+.montre-info button{
+    border: 1px solid transparent;
+    background-color: transparent;
+    color: aliceblue;
+    border-radius: 12px;
+    transition: color 0.5s ease;
+}
+.montre-info  button:hover{
+    color: #ffffff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff;  ;
 }
