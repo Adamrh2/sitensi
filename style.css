@@ -4,9 +4,10 @@ body {
     padding: 20px;
     background-color: #1a1a1a;
     color: #f0f0f0;
+    padding-top: 60px;
 }
 
-.logo img {
+.toz img {
     max-width: 150px;
     display: block;
     margin: 0 auto 20px;
@@ -61,10 +62,8 @@ video {
     z-index:-100;
   }
 .soon button{
-    cursor: pointer;
     border: 1px solid #000000;
     background-color: transparent;
-    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
     color: aliceblue;
     border-radius: 12px;
 }
@@ -72,4 +71,33 @@ video {
 a {
     text-decoration: none;
     color: #cccccc;
+}
+
+.menu {
+    background-color: transparent;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.menu a {
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.5s ease;
+}
+
+.menu a:hover {
+    color: #ffffff;
 }
